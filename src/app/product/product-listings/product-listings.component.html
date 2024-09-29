@@ -5,14 +5,16 @@
       <a [routerLink]="[productId]">
         <div class="card">
           <img
-            src="assets/img/download.png"
+            src="{{ product.coverImage }}"
             class="card-img-top"
             alt="Card image cap"
           />
           <div class="card-body">
+            <p class="card-text"></p>
+            <h5 class="card-title">{{ product.name }}</h5>
+            <p>$ {{ product.price }}</p>
             <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              {{ product.description }}
             </p>
           </div>
         </div>

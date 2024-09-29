@@ -8,5 +8,10 @@ import { products } from '../../products';
 })
 export class ProductListingsComponent {
   constructor() {}
-  products: any = [1, 2, 3, 4];
+  // products: any = [1, 2, 3, 4];
+  products: any;
+
+  ngOnInit() {
+    this.products = products;
+  }
 }
