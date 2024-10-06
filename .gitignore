@@ -43,3 +43,4 @@ Thumbs.db
 
 # Config Files
 /server/config/dev.js
+.env
