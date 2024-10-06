@@ -18,7 +18,7 @@ export class ProductListingsComponent {
         this.products = data;
       },
       error: (err) => {
-        console.error('次のエラーが発生しました ' + err);
+        console.error('エラーが発生しました ' + err);
       },
     });
   }
